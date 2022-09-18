@@ -1,0 +1,90 @@
+body{
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+/* 
+colors in the docs.
+index
+logo - #2196F3
+nav hover - #2196F3
+nav ordinary - #212121
+address header - #2196F3
+address header ordinary - #757575
+hero section background color - #2F303A
+header section - h1 - #FFFFFF
+header section button text - #FFFFFF
+header section button - #2196F3
+definition section background color - #E5E5E5
+definition section name - #212121
+definition section description - #757575
+what we do section heading - #212121
+team background - #F5F4FA
+team card name background - #FFFFFF
+footer backgroubd - #2F303A
+address - #FFFFFF
+email and phone rgba rgba(255, 255, 255, 0.6)
+portfolio background #E5E5E5
+portfolio header nav ordinary #212121
+
+buttons ordinary - #F5F4FA
+container main li frame - #EEEEEE
+container main li - #FFFFFF
+footer background - #2F303A
+footer mail to - rgba(255, 255, 255, 0.6)*/
+
+
+.header {
+height: 80px;
+width: 1600px;
+background-color: #FFFFFF;
+}
+
+.header-link, 
+.nav-link
+{
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    box-align: Left;
+    vertical-align: Top;
+    letter-spacing: 3%;
+    color: #2196F3;
+}
+
+.hero-heading {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.header-list {
+
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.visually-hidden {
+     position: absolute;
+     white-space: nowrap;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     border: 0;
+     padding: 0;
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     margin: -1px;
+   }
