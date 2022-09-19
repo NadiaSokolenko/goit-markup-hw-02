@@ -92,7 +92,6 @@ background-color: var(--white-background-color);
     background-color: var(--main-dark-background-color);
 }
 
-
 .visually-hidden {
      position: absolute;
      white-space: nowrap;
@@ -211,7 +210,8 @@ background-color: var(--white-background-color);
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--ordinary-text-color);
-    background-color: var(--button-portfolio-color)
+    background-color: var(--button-portfolio-color);
+    border: none;
 }
 
 .button-primary {
@@ -227,6 +227,7 @@ background-color: var(--white-background-color);
     letter-spacing: 0.06em;
     color: var(--white-background-color);
     background-color: var(--active-text-color);
+    border: none;
 }
 
 .portfolio-title {
@@ -237,7 +238,6 @@ background-color: var(--white-background-color);
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--ordinary-text-color);
-
 }
 
 .portfolio--about {
