@@ -214,7 +214,7 @@ background-color: var(--white-background-color);
     border: none;
 }
 
-.button-primary {
+.button .current {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -228,6 +228,12 @@ background-color: var(--white-background-color);
     color: var(--white-background-color);
     background-color: var(--active-text-color);
     border: none;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--white-background-color);
+    background-color: var(--active-text-color);
 }
 
 .portfolio-title {
