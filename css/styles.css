@@ -41,8 +41,8 @@ background-color: #FFFFFF;
 }
 
 .header-link, 
-.nav-link
-{
+.nav-link,
+.footer-link {
     text-decoration: none;
 }
 
@@ -57,6 +57,26 @@ background-color: #FFFFFF;
     color: #2196F3;
 }
 
+.nav-list {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#212121;
+}
+
+.header-list {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #757575;    
+}
+
 .hero-heading {
     font-family: Roboto;
     font-size: 44px;
@@ -65,10 +85,6 @@ background-color: #FFFFFF;
     letter-spacing: 0.06em;
     text-align: center;
     color: #FFFFFF;
-
-}
-
-.header-list {
 
 }
 
