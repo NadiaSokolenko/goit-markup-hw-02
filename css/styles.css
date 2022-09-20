@@ -39,11 +39,11 @@ background-color: var(--white-background-color);
     color: var(--active-text-color);
 }
 
-.logo-1 {
+.header-link .logo-1 {
     color: var(--ordinary-text-color);
 }
 
-.logo-2 {
+.footer-link .logo-2 {
     color: var(--white-background-color);
 }
 
