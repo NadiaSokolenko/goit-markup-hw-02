@@ -39,6 +39,14 @@ background-color: var(--white-background-color);
     color: var(--active-text-color);
 }
 
+.logo-1 {
+    color: var(--ordinary-text-color);
+}
+
+.logo-2 {
+    color: var(--white-background-color);
+}
+
 .nav-site .link {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
